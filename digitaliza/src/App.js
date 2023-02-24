@@ -3,8 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="formulario">
-      <form>
+      <form className='stuff'>
         <div class="form-group">
           <label for="exampleFormControlInput1">Nome</label>
           <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Seu Nome"></input>
@@ -25,10 +24,9 @@ function App() {
           <input type="file" id="avatar" name="avatar" accept=".pdf" ></input>
             <label for="exampleFormControlInput1">Senha</label>
             <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Seu Nome"></input>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-primary">Cadastrar</button>
         </div>
-      </form>
-    </div>  
+      </form> 
   );
 }
 
