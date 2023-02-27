@@ -1,0 +1,39 @@
+.phase-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.progressbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10% ;
+}
+progress{
+    width: 60%;
+    position:absolute;
+    z-index: -1;
+    justify-self: center;
+}
+.progress-step {
+    width: 60px;
+    height: 60px;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    width: 82%;
+    padding:0 10%;
+    justify-content: space-between;
+    text-align: center;
+}
