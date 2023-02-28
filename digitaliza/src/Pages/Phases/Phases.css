@@ -1,3 +1,5 @@
+
+
 .phase-card{
     height: 100%;
     display: flex;
@@ -29,11 +31,21 @@ progress{
     justify-content: center;
     align-items: center;
 }
+.progress-step-active {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .description{
     display: flex;
-    width: 82%;
+    width: 80%;
     padding:0 10%;
     justify-content: space-between;
     text-align: center;
 }
+
