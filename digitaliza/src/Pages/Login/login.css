@@ -10,7 +10,7 @@
 .banner{
     display: flex;
     width: 70%;
-    background-image: url('../Assets/imgs/Bosch.jpg');
+    background-image: url('../../Assets/imgs/Bosch.jpg');
     background-size: cover;
     align-items: center;
 }

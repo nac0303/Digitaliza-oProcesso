@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Login from './Pages/login';
+import Login from './Pages/Login/login';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
