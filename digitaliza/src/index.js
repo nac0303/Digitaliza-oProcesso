@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import Login from './Pages/Login/login';
+=======
+import Login from './Pages/login';
+import Phases from './Pages/Phases/Phases';
+>>>>>>> 2fe22bc279b66d4466f2fa855bea997bfc78b70c
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <Phases/>
   </React.StrictMode>
 );
 
