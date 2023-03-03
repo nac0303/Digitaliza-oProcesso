@@ -1,4 +1,11 @@
-
+progress[value]::-webkit-progress-value {
+    background-color: rgb(0, 30, 255) !important;
+    height: 30px;
+}
+progress::-webkit-progress-bar {
+    background-color: #dcdcdc;
+    border-radius: 7px;
+  }
 
 .phase-card{
     height: 100%;
@@ -7,8 +14,17 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
+
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .progressbar{
     width: 80%;
     display: flex;
@@ -17,14 +33,20 @@
     padding:0 10% ;
 }
 progress{
-    width: 60%;
+    height: 15px;
+    background: blue;
+    width: 59%;
     position:absolute;
     z-index: -1;
-    justify-self: center;
+    border-radius: 59%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
 }
 .progress-step {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     background-color: #dcdcdc;
     border-radius: 50%;
     display: flex;
@@ -32,8 +54,8 @@ progress{
     align-items: center;
 }
 .progress-step-active {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     background-color: blue;
     border-radius: 50%;
     display: flex;
@@ -44,8 +66,8 @@ progress{
 .description{
     display: flex;
     width: 80%;
-    padding:0 10%;
     justify-content: space-between;
     text-align: center;
+    padding: 0 10%;
 }
 
